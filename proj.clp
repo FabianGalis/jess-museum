@@ -122,7 +122,7 @@
         "3. Lista exponate din depozit" crlf
         "4. Responsabili exponate" crlf
         "5. Nr. de telefon al responsabilului pt. un exponat (introd. nr. de inventar)" crlf
-        "6. Exponate vizitate intr-un tur (introd. numele turului)" crlf
+        "6. Exponate vizitate per tur" crlf
         "7. Sali goale" crlf)
     (bind ?r (read))
     (if (or (eq ?r 2) (eq ?r 5))
